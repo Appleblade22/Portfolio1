@@ -164,7 +164,7 @@ nav.sticky .menu-btn {
   margin-left: auto;
   margin-right: auto;
   width: 500px;
-  scale: 0.6;
+  transform: scale(0.6);
 }
 
 .home .neon-button::before {
@@ -715,7 +715,7 @@ footer .text span{
    font-size: 33px;
  }
  .skill-section .skill{
-   scale: 0.856;
+  transform: scale(0.856);
  }
 
  .projects .boxes .box{
@@ -724,7 +724,7 @@ footer .text span{
  }
 
  .home .neon-button {
-  scale:0.48;
+  transform: scale(0.48);
 }
 
 }
@@ -748,7 +748,7 @@ footer .text span{
 }
 @media (max-width:400px){
   .home .glitch{
-    font-size: 55px;
+    font-size: 33px;
   }
   .home .text-three{
     font-size: 21px;
@@ -761,9 +761,9 @@ footer .text span{
     margin-right:0;
     margin-left:0;
 
-    scale: 0.48;
+    transform: scale(0.48);
   }
   .skill-section .skill{
-    scale: 0.756;
+    transform: scale(0.756);
   }
 }
