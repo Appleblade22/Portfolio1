@@ -1,0 +1,64 @@
+#word-holder:after {
+    content: "dog";
+    display: inline-block;
+    color: red;
+    vertical-align: bottom;
+    animation: word-switcher infinite 8s ease;
+  }
+  
+  @-webkit-keyframes word-switcher {
+    0%  {content: "a Front-End Dev"; opacity:0;}
+    15% {content: "a Front-End Dev"; opacity:1}
+    19% {content: "a Front-End Dev"; opacity:0;}
+    20% {content: "a Back-End Dev"; opacity:0;}
+    35% {content: "a Back-End Dev"; opacity:1;}
+    39% {content: "a Back-End Dev"; opacity:0;}
+    40% {content: "a Prankster"; opacity:0;}
+    55% {content: "a Prankster"; opacity:1;}
+    59% {content: "a Prankster"; opacity:0;}
+    60% {content: "curious"; opacity:0;}
+    75% {content: "curious"; opacity:1}
+    79% {content: "curious"; opacity:0;}
+    80% {content: "a Programmer"; opacity:0;}
+    95% {content: "a Programmer"; opacity:1;}
+    99% {content: "a Programmer"; opacity:0;}
+    100% {content: "a Programmer"; opacity:0;}
+  }
+  
+  @-moz-keyframes word-switcher {
+    0%  {content: "a Front-End Dev"; opacity:0;}
+    15% {content: "a Front-End Dev"; opacity:1}
+    19% {content: "a Front-End Dev"; opacity:0;}
+    20% {content: "a Back-End Dev"; opacity:0;}
+    35% {content: "a Back-End Dev"; opacity:1;}
+    39% {content: "a Back-End Dev"; opacity:0;}
+    40% {content: "a Prankster"; opacity:0;}
+    55% {content: "a Prankster"; opacity:1;}
+    59% {content: "a Prankster"; opacity:0;}
+    60% {content: "curious"; opacity:0;}
+    75% {content: "curious"; opacity:1}
+    79% {content: "curious"; opacity:0;}
+    80% {content: "a Programmer"; opacity:0;}
+    95% {content: "a Programmer"; opacity:1;}
+    99% {content: "a Programmer"; opacity:0;}
+    100% {content: "a Programmer"; opacity:0;}
+  }
+  
+  @keyframes word-switcher {
+    0%  {content: "a Front-End Dev"; opacity:0;}
+    15% {content: "a Front-End Dev"; opacity:1}
+    19% {content: "a Front-End Dev"; opacity:0;}
+    20% {content: "a Back-End Dev"; opacity:0;}
+    35% {content: "a Back-End Dev"; opacity:1;}
+    39% {content: "a Back-End Dev"; opacity:0;}
+    40% {content: "a Prankster"; opacity:0;}
+    55% {content: "a Prankster"; opacity:1;}
+    59% {content: "a Prankster"; opacity:0;}
+    60% {content: "curious"; opacity:0;}
+    75% {content: "curious"; opacity:1}
+    79% {content: "curious"; opacity:0;}
+    80% {content: "a Programmer"; opacity:0;}
+    95% {content: "a Programmer"; opacity:1;}
+    99% {content: "a Programmer"; opacity:0;}
+    100% {content: "a Programmer"; opacity:0;}
+  }
